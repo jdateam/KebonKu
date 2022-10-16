@@ -1,0 +1,85 @@
+*{
+    text-decoration: none;
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.gambar {
+    width: 700px;
+    height: 500px;
+}
+
+.gambar img {
+    width: 600px;
+    height: 300px;
+    float: left;
+    margin: 100px 0px;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: #425F57;
+}
+
+.menu{
+    float: right;
+    
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: #425F57;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.sub-menu ul li 
+{
+    text-decoration: none;
+}
+.wrapper img
+{
+    width: 160px;
+
+}
